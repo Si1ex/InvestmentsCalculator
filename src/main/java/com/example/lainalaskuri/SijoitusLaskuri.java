@@ -46,7 +46,7 @@ public class SijoitusLaskuri extends Application {
         stage.show();
     }
     private void LaskeTuottoOdotus() {
-        double SijoituksenMaaraluku = Double.parseDouble(sijoituksenMaara.getText());   //Luetaan arvot kentisatä
+        double SijoituksenMaaraluku = Double.parseDouble(sijoituksenMaara.getText());   //Luetaan arvot kentistä
         int VuosienMaaraluku = Integer.parseInt(vuosienMaara.getText());
         double VuosiKorkoluku = Double.parseDouble(vuosikorko.getText());
 
